@@ -3,7 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const mime = require('mime-types');
-const { categories, authors, articles, global, about } = require('../data/data.json');
+const { categories, authors, articles, global, about, states, counties, cities } = require('../data/data.json');
 
 async function seedExampleApp() {
   const shouldImportSeedData = await isFirstRun();
@@ -236,6 +236,84 @@ async function importAuthors() {
   }
 }
 
+async function importStates() {
+  console.log('Importing states...');
+  for (const state of states) {
+    await createEntry({ 
+      model: 'state', 
+      entry: {
+        ...state,
+        publishedAt: Date.now() // Since draftAndPublish is true
+      }
+    });
+  }
+  console.log(`Imported ${states.length} states`);
+}
+
+async function importCounties() {
+  console.log('Importing counties...');
+  for (const county of counties) {
+    // Find the state ID by name
+    let stateId = null;
+    if (county.state) {
+      const stateEntity = await strapi.documents('api::state.state').findMany({
+        filters: { name: county.state }
+      });
+      if (stateEntity.length > 0) {
+        stateId = stateEntity[0].id;
+      }
+    }
+
+    await createEntry({ 
+      model: 'county', 
+      entry: {
+        ...county,
+        state: stateId,
+        publishedAt: Date.now()
+      }
+    });
+  }
+  console.log(`Imported ${counties.length} counties`);
+}
+
+async function importCities() {
+  console.log('Importing cities...');
+  for (const city of cities) {
+    // Find county ID
+    let countyId = null;
+    if (city.county) {
+      const countyEntity = await strapi.documents('api::county.county').findMany({
+        filters: { name: city.county }
+      });
+      if (countyEntity.length > 0) {
+        countyId = countyEntity[0].id;
+      }
+    }
+
+    // Find state ID
+    let stateId = null;
+    if (city.state) {
+      const stateEntity = await strapi.documents('api::state.state').findMany({
+        filters: { name: city.state }
+      });
+      if (stateEntity.length > 0) {
+        stateId = stateEntity[0].id;
+      }
+    }
+
+    await createEntry({ 
+      model: 'city', 
+      entry: {
+        ...city,
+        county: countyId,
+        state: stateId,
+        publishedAt: Date.now()
+      }
+    });
+  }
+  console.log(`Imported ${cities.length} cities`);
+}
+
 async function importSeedData() {
   // Allow read of application content types
   await setPublicPermissions({
@@ -244,11 +322,17 @@ async function importSeedData() {
     author: ['find', 'findOne'],
     global: ['find', 'findOne'],
     about: ['find', 'findOne'],
+    state: ['find', 'findOne'],
+    county: ['find', 'findOne'],
+    city: ['find', 'findOne'],
   });
 
-  // Create all entries
+  // Create all entries - ORDER MATTERS!
   await importCategories();
   await importAuthors();
+  await importStates();    // Import states first
+  await importCounties();  // Then counties (they reference states)
+  await importCities();    // Finally cities (they reference both)
   await importArticles();
   await importGlobal();
   await importAbout();

@@ -1,241 +1,6161 @@
 {
-  "global": {
-    "siteName": "Strapi Blog",
-    "defaultSeo": {
-      "metaTitle": "Page",
-      "metaDescription": "A blog made with Strapi",
-      "shareImage": null
-    },
-    "siteDescription": "A Blog made with Strapi",
-    "favicon": null
+  "global":{
+     "siteName":"Dumbo Health",
+     "defaultSeo":{
+        "metaTitle":"Dumbo Health",
+        "metaDescription":"Providing information and support for people with Dumbo Health",
+        "shareImage":null
+     },
+     "siteDescription":"Providing information and support for people with Dumbo Health",
+     "favicon":null
   },
-  "about": {
-    "title": "About the strapi blog",
-    "blocks": [
-      {
-        "__component": "shared.quote",
-        "title": "Thelonius Monk",
-        "body": "You've got to dig it to dig it, you dig?"
-      },
-      {
-        "__component": "shared.rich-text",
-        "body": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec."
-      },
-      {
-        "__component": "shared.media",
-        "file": "coffee-art.jpg"
-      }
-    ]
+  "about":{
+     "title":"About Dumbo Health",
+     "blocks":[
+        {
+           "__component":"shared.quote",
+           "title":"Dumbo Health",
+           "body":"You've got to dig it to dig it, you dig?"
+        },
+        {
+           "__component":"shared.rich-text",
+           "body":"## About Dumbo Health\n\nDumbo Health is a non-profit organization that provides information and support for people with Dumbo Health. We are a team of experts who are dedicated to helping people with Dumbo Health live better lives."
+        },
+        {
+           "__component":"shared.media",
+           "file":"coffee-art.jpg"
+        }
+     ]
   },
-  "categories": [
-    {
-      "name": "news",
-      "slug": "news"
-    },
-    {
-      "name": "tech",
-      "slug": "tech"
-    },
-    {
-      "name": "food",
-      "slug": "food"
-    },
-    {
-      "name": "nature",
-      "slug": "nature"
-    },
-    {
-      "name": "story",
-      "slug": "story"
-    }
+  "categories":[
+     {
+        "name":"news",
+        "slug":"news"
+     },
+     {
+        "name":"tech",
+        "slug":"tech"
+     },
+     {
+        "name":"food",
+        "slug":"food"
+     },
+     {
+        "name":"nature",
+        "slug":"nature"
+     },
+     {
+        "name":"story",
+        "slug":"story"
+     }
   ],
-  "authors": [
-    {
-      "name": "David Doe",
-      "email": "daviddoe@strapi.io",
-      "avatar": "daviddoe@strapi.io.jpg"
-    },
-    {
-      "name": "Sarah Baker",
-      "email": "sarahbaker@strapi.io",
-      "avatar": "sarahbaker@strapi.io.jpg"
-    }
+  "authors":[
+     {
+        "name":"David Doe",
+        "email":"daviddoe@strapi.io",
+        "avatar":"daviddoe@strapi.io.jpg"
+     },
+     {
+        "name":"Sarah Baker",
+        "email":"sarahbaker@strapi.io",
+        "avatar":"sarahbaker@strapi.io.jpg"
+     }
   ],
-  "articles": [
-    {
-      "title": "The internet's Own boy",
-      "slug": "the-internet-s-own-boy",
-      "category": {
-        "id": 5
-      },
-      "author": {
-        "id": 1
-      },
-      "description": "Follow the story of Aaron Swartz, the boy who could change the world",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+  "articles":[
+     {
+        "title":"What's inside a Black Hole",
+        "slug":"what-s-inside-a-black-hole",
+        "category":{
+           "id":1
         },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
+        "author":{
+           "id":2
         },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
-    },
-    {
-      "title": "This shrimp is awesome",
-      "slug": "this-shrimp-is-awesome",
-      "category": {
-        "id": 4
-      },
-      "author": {
-        "id": 1
-      },
-      "description": "Mantis shrimps, or stomatopods, are marine crustaceans of the order Stomatopoda.",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
-    },
-    {
-      "title": "A bug is becoming a meme on the internet",
-      "slug": "a-bug-is-becoming-a-meme-on-the-internet",
-      "category": {
-        "id": 2
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "How a bug on MySQL is becoming a meme on the internet",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
-    },
-    {
-      "title": "Beautiful picture",
-      "slug": "beautiful-picture",
-      "category": {
-        "id": 4
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "Description of a beautiful picture",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
-    },
-    {
-      "title": "What's inside a Black Hole",
-      "slug": "what-s-inside-a-black-hole",
-      "category": {
-        "id": 1
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "Maybe the answer is in this article, or not...",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
-    }
+        "description":"Maybe the answer is in this article, or not...",
+        "cover":null,
+        "blocks":[
+           {
+              "__component":"shared.rich-text",
+              "body":"## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+           },
+           {
+              "__component":"shared.quote",
+              "title":"Thelonius Monk",
+              "body":"You've got to dig it to dig it, you dig?"
+           },
+           {
+              "__component":"shared.media",
+              "file":"coffee-art.jpg"
+           },
+           {
+              "__component":"shared.rich-text",
+              "body":"## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
+           },
+           {
+              "__component":"shared.slider",
+              "files":[
+                 "coffee-art.jpg",
+                 "coffee-beans.jpg"
+              ]
+           }
+        ]
+     }
+  ],
+  "states":[
+     {
+        "name":"Florida",
+        "slug":"florida"
+     }
+  ],
+  "counties":[
+     {
+        "name":"Duval",
+        "slug":"duval",
+        "state":"Florida"
+     },
+     {
+        "name":"Miami-Dade",
+        "slug":"miami-dade",
+        "state":"Florida"
+     },
+     {
+        "name":"Hillsborough",
+        "slug":"hillsborough",
+        "state":"Florida"
+     },
+     {
+        "name":"Orange",
+        "slug":"orange",
+        "state":"Florida"
+     },
+     {
+        "name":"Pinellas",
+        "slug":"pinellas",
+        "state":"Florida"
+     },
+     {
+        "name":"Saint Lucie",
+        "slug":"saint-lucie",
+        "state":"Florida"
+     },
+     {
+        "name":"Lee",
+        "slug":"lee",
+        "state":"Florida"
+     },
+     {
+        "name":"Leon",
+        "slug":"leon",
+        "state":"Florida"
+     },
+     {
+        "name":"Broward",
+        "slug":"broward",
+        "state":"Florida"
+     },
+     {
+        "name":"Alachua",
+        "slug":"alachua",
+        "state":"Florida"
+     },
+     {
+        "name":"Brevard",
+        "slug":"brevard",
+        "state":"Florida"
+     },
+     {
+        "name":"Palm Beach",
+        "slug":"palm-beach",
+        "state":"Florida"
+     },
+     {
+        "name":"Polk",
+        "slug":"polk",
+        "state":"Florida"
+     },
+     {
+        "name":"Hernando",
+        "slug":"hernando",
+        "state":"Florida"
+     },
+     {
+        "name":"Flagler",
+        "slug":"flagler",
+        "state":"Florida"
+     },
+     {
+        "name":"Volusia",
+        "slug":"volusia",
+        "state":"Florida"
+     },
+     {
+        "name":"Sarasota",
+        "slug":"sarasota",
+        "state":"Florida"
+     },
+     {
+        "name":"Osceola",
+        "slug":"osceola",
+        "state":"Florida"
+     },
+     {
+        "name":"Marion",
+        "slug":"marion",
+        "state":"Florida"
+     },
+     {
+        "name":"Pasco",
+        "slug":"pasco",
+        "state":"Florida"
+     },
+     {
+        "name":"Seminole",
+        "slug":"seminole",
+        "state":"Florida"
+     },
+     {
+        "name":"Charlotte",
+        "slug":"charlotte",
+        "state":"Florida"
+     },
+     {
+        "name":"Lake",
+        "slug":"lake",
+        "state":"Florida"
+     },
+     {
+        "name":"Manatee",
+        "slug":"manatee",
+        "state":"Florida"
+     },
+     {
+        "name":"Escambia",
+        "slug":"escambia",
+        "state":"Florida"
+     },
+     {
+        "name":"Santa Rosa",
+        "slug":"santa-rosa",
+        "state":"Florida"
+     },
+     {
+        "name":"Bay",
+        "slug":"bay",
+        "state":"Florida"
+     },
+     {
+        "name":"Saint Johns",
+        "slug":"saint-johns",
+        "state":"Florida"
+     },
+     {
+        "name":"Clay",
+        "slug":"clay",
+        "state":"Florida"
+     },
+     {
+        "name":"Okaloosa",
+        "slug":"okaloosa",
+        "state":"Florida"
+     },
+     {
+        "name":"Indian River",
+        "slug":"indian-river",
+        "state":"Florida"
+     },
+     {
+        "name":"Collier",
+        "slug":"collier",
+        "state":"Florida"
+     },
+     {
+        "name":"Martin",
+        "slug":"martin",
+        "state":"Florida"
+     },
+     {
+        "name":"Desoto",
+        "slug":"desoto",
+        "state":"Florida"
+     },
+     {
+        "name":"Monroe",
+        "slug":"monroe",
+        "state":"Florida"
+     },
+     {
+        "name":"Gadsden",
+        "slug":"gadsden",
+        "state":"Florida"
+     },
+     {
+        "name":"Sumter",
+        "slug":"sumter",
+        "state":"Florida"
+     },
+     {
+        "name":"Nassau",
+        "slug":"nassau",
+        "state":"Florida"
+     },
+     {
+        "name":"Citrus",
+        "slug":"citrus",
+        "state":"Florida"
+     },
+     {
+        "name":"Columbia",
+        "slug":"columbia",
+        "state":"Florida"
+     },
+     {
+        "name":"Highlands",
+        "slug":"highlands",
+        "state":"Florida"
+     },
+     {
+        "name":"Putnam",
+        "slug":"putnam",
+        "state":"Florida"
+     },
+     {
+        "name":"Walton",
+        "slug":"walton",
+        "state":"Florida"
+     },
+     {
+        "name":"Baker",
+        "slug":"baker",
+        "state":"Florida"
+     },
+     {
+        "name":"Jackson",
+        "slug":"jackson",
+        "state":"Florida"
+     },
+     {
+        "name":"Glades",
+        "slug":"glades",
+        "state":"Florida"
+     },
+     {
+        "name":"Taylor",
+        "slug":"taylor",
+        "state":"Florida"
+     },
+     {
+        "name":"Suwannee",
+        "slug":"suwannee",
+        "state":"Florida"
+     },
+     {
+        "name":"Bradford",
+        "slug":"bradford",
+        "state":"Florida"
+     },
+     {
+        "name":"Wakulla",
+        "slug":"wakulla",
+        "state":"Florida"
+     },
+     {
+        "name":"Okeechobee",
+        "slug":"okeechobee",
+        "state":"Florida"
+     },
+     {
+        "name":"Hendry",
+        "slug":"hendry",
+        "state":"Florida"
+     },
+     {
+        "name":"Hardee",
+        "slug":"hardee",
+        "state":"Florida"
+     },
+     {
+        "name":"Gulf",
+        "slug":"gulf",
+        "state":"Florida"
+     },
+     {
+        "name":"Washington",
+        "slug":"washington",
+        "state":"Florida"
+     },
+     {
+        "name":"Hamilton",
+        "slug":"hamilton",
+        "state":"Florida"
+     },
+     {
+        "name":"Levy",
+        "slug":"levy",
+        "state":"Florida"
+     },
+     {
+        "name":"Madison",
+        "slug":"madison",
+        "state":"Florida"
+     },
+     {
+        "name":"Holmes",
+        "slug":"holmes",
+        "state":"Florida"
+     },
+     {
+        "name":"Jefferson",
+        "slug":"jefferson",
+        "state":"Florida"
+     },
+     {
+        "name":"Franklin",
+        "slug":"franklin",
+        "state":"Florida"
+     },
+     {
+        "name":"Calhoun",
+        "slug":"calhoun",
+        "state":"Florida"
+     },
+     {
+        "name":"Gilchrist",
+        "slug":"gilchrist",
+        "state":"Florida"
+     },
+     {
+        "name":"Union",
+        "slug":"union",
+        "state":"Florida"
+     },
+     {
+        "name":"Dixie",
+        "slug":"dixie",
+        "state":"Florida"
+     },
+     {
+        "name":"Lafayette",
+        "slug":"lafayette",
+        "state":"Florida"
+     },
+     {
+        "name":"Liberty",
+        "slug":"liberty",
+        "state":"Florida"
+     }
+  ],
+  "cities":[
+     {
+        "name":"Jacksonville",
+        "slug":"jacksonville",
+        "state":"Florida",
+        "county":"Duval"
+     },
+     {
+        "name":"Miami",
+        "slug":"miami",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Tampa",
+        "slug":"tampa",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Orlando",
+        "slug":"orlando",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"St. Petersburg",
+        "slug":"st-petersburg",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Port St. Lucie",
+        "slug":"port-st-lucie",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Hialeah",
+        "slug":"hialeah",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Cape Coral",
+        "slug":"cape-coral",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Tallahassee",
+        "slug":"tallahassee",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"Fort Lauderdale",
+        "slug":"fort-lauderdale",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Pembroke Pines",
+        "slug":"pembroke-pines",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Hollywood",
+        "slug":"hollywood",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Gainesville",
+        "slug":"gainesville",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Miramar",
+        "slug":"miramar",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Palm Bay",
+        "slug":"palm-bay",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Coral Springs",
+        "slug":"coral-springs",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"West Palm Beach",
+        "slug":"west-palm-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Lehigh Acres",
+        "slug":"lehigh-acres",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Lakeland",
+        "slug":"lakeland",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Spring Hill",
+        "slug":"spring-hill",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Pompano Beach",
+        "slug":"pompano-beach",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Clearwater",
+        "slug":"clearwater",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Brandon",
+        "slug":"brandon",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Miami Gardens",
+        "slug":"miami-gardens",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Davie",
+        "slug":"davie",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Riverview",
+        "slug":"riverview",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Palm Coast",
+        "slug":"palm-coast",
+        "state":"Florida",
+        "county":"Flagler"
+     },
+     {
+        "name":"Boca Raton",
+        "slug":"boca-raton",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Plantation city",
+        "slug":"plantation-city",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Deltona",
+        "slug":"deltona",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Sunrise",
+        "slug":"sunrise",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Fort Myers",
+        "slug":"fort-myers",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"North Port",
+        "slug":"north-port",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Alafaya",
+        "slug":"alafaya",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Deerfield Beach",
+        "slug":"deerfield-beach",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Melbourne",
+        "slug":"melbourne",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Town 'n' Country",
+        "slug":"town-n-country",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Daytona Beach",
+        "slug":"daytona-beach",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Homestead",
+        "slug":"homestead",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Kissimmee",
+        "slug":"kissimmee",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"Doral",
+        "slug":"doral",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Miami Beach",
+        "slug":"miami-beach",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Boynton Beach",
+        "slug":"boynton-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Largo",
+        "slug":"largo",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Pine Hills",
+        "slug":"pine-hills",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"The Villages",
+        "slug":"the-villages",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Kendall",
+        "slug":"kendall",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Lauderhill",
+        "slug":"lauderhill",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Tamarac",
+        "slug":"tamarac",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Wesley Chapel",
+        "slug":"wesley-chapel",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Poinciana",
+        "slug":"poinciana",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"St. Cloud",
+        "slug":"st-cloud",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"Weston",
+        "slug":"weston",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Ocala",
+        "slug":"ocala",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Delray Beach",
+        "slug":"delray-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Sanford",
+        "slug":"sanford",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Port Orange",
+        "slug":"port-orange",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Port Charlotte",
+        "slug":"port-charlotte",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Palm Beach Gardens",
+        "slug":"palm-beach-gardens",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Wellington",
+        "slug":"wellington",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Jupiter",
+        "slug":"jupiter",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Apopka",
+        "slug":"apopka",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"North Miami",
+        "slug":"north-miami",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Horizon West",
+        "slug":"horizon-west",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Palm Harbor",
+        "slug":"palm-harbor",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Margate",
+        "slug":"margate",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Four Corners",
+        "slug":"four-corners",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Winter Haven",
+        "slug":"winter-haven",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Coconut Creek",
+        "slug":"coconut-creek",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"The Hammocks",
+        "slug":"the-hammocks",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Bradenton",
+        "slug":"bradenton",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Sarasota",
+        "slug":"sarasota",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Bonita Springs",
+        "slug":"bonita-springs",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Fountainebleau",
+        "slug":"fountainebleau",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Pensacola",
+        "slug":"pensacola",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Pinellas Park",
+        "slug":"pinellas-park",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Westchester",
+        "slug":"westchester",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Kendale Lakes",
+        "slug":"kendale-lakes",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Ocoee",
+        "slug":"ocoee",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Tamiami",
+        "slug":"tamiami",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Country Club",
+        "slug":"country-club",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Clermont",
+        "slug":"clermont",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Fort Pierce",
+        "slug":"fort-pierce",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Coral Gables",
+        "slug":"coral-gables",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Titusville",
+        "slug":"titusville",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"University CDP",
+        "slug":"university-cdp",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Winter Garden",
+        "slug":"winter-garden",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Altamonte Springs",
+        "slug":"altamonte-springs",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"North Lauderdale",
+        "slug":"north-lauderdale",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Cutler Bay",
+        "slug":"cutler-bay",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Oakland Park",
+        "slug":"oakland-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"North Miami Beach",
+        "slug":"north-miami-beach",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"DeLand",
+        "slug":"deland",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Greenacres",
+        "slug":"greenacres",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Ormond Beach",
+        "slug":"ormond-beach",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Lake Worth Beach",
+        "slug":"lake-worth-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"North Fort Myers",
+        "slug":"north-fort-myers",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Plant City",
+        "slug":"plant-city",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Hallandale Beach",
+        "slug":"hallandale-beach",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Haines City",
+        "slug":"haines-city",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Royal Palm Beach",
+        "slug":"royal-palm-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Oviedo",
+        "slug":"oviedo",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Land O' Lakes",
+        "slug":"land-o-lakes",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Princeton",
+        "slug":"princeton",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Meadow Woods",
+        "slug":"meadow-woods",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Aventura",
+        "slug":"aventura",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"The Acreage",
+        "slug":"the-acreage",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Winter Springs",
+        "slug":"winter-springs",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Parkland",
+        "slug":"parkland",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Riviera Beach",
+        "slug":"riviera-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Lakewood Ranch",
+        "slug":"lakewood-ranch",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Navarre",
+        "slug":"navarre",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Valrico",
+        "slug":"valrico",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Estero",
+        "slug":"estero",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Leesburg",
+        "slug":"leesburg",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"South Miami Heights",
+        "slug":"south-miami-heights",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Lauderdale Lakes",
+        "slug":"lauderdale-lakes",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Panama City",
+        "slug":"panama-city",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Richmond West",
+        "slug":"richmond-west",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Dunedin",
+        "slug":"dunedin",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Egypt Lake-Leto",
+        "slug":"egypt-lake-leto",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Carrollwood",
+        "slug":"carrollwood",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Fruit Cove",
+        "slug":"fruit-cove",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Cooper City",
+        "slug":"cooper-city",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Kendall West",
+        "slug":"kendall-west",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Golden Glades",
+        "slug":"golden-glades",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Merritt Island",
+        "slug":"merritt-island",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Miami Lakes",
+        "slug":"miami-lakes",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"West Little River",
+        "slug":"west-little-river",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"New Smyrna Beach",
+        "slug":"new-smyrna-beach",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Dania Beach",
+        "slug":"dania-beach",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"East Lake",
+        "slug":"east-lake",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Buenaventura Lakes",
+        "slug":"buenaventura-lakes",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"Sun City Center",
+        "slug":"sun-city-center",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Lake Magdalene",
+        "slug":"lake-magdalene",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Casselberry",
+        "slug":"casselberry",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Lakeside",
+        "slug":"lakeside",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Rockledge",
+        "slug":"rockledge",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"West Melbourne",
+        "slug":"west-melbourne",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Winter Park",
+        "slug":"winter-park",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Oakleaf Plantation",
+        "slug":"oakleaf-plantation",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Crestview",
+        "slug":"crestview",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Ferry Pass",
+        "slug":"ferry-pass",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Ruskin",
+        "slug":"ruskin",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Venice",
+        "slug":"venice",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Vero Beach South",
+        "slug":"vero-beach-south",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Fleming Island",
+        "slug":"fleming-island",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"East Lake-Orient Park",
+        "slug":"east-lake-orient-park",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Golden Gate",
+        "slug":"golden-gate",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Palm Springs",
+        "slug":"palm-springs",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Apollo Beach",
+        "slug":"apollo-beach",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Citrus Park",
+        "slug":"citrus-park",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Temple Terrace",
+        "slug":"temple-terrace",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Silver Springs Shores",
+        "slug":"silver-springs-shores",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Wright",
+        "slug":"wright",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Sebastian",
+        "slug":"sebastian",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Leisure City",
+        "slug":"leisure-city",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Lutz",
+        "slug":"lutz",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Keystone",
+        "slug":"keystone",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Palm River-Clair Mel",
+        "slug":"palm-river-clair-mel",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Tarpon Springs",
+        "slug":"tarpon-springs",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Ives Estates",
+        "slug":"ives-estates",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Fish Hawk",
+        "slug":"fish-hawk",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Palm City",
+        "slug":"palm-city",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Pace",
+        "slug":"pace",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Immokalee",
+        "slug":"immokalee",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"South Bradenton",
+        "slug":"south-bradenton",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Nocatee",
+        "slug":"nocatee",
+        "state":"Florida",
+        "county":"Desoto"
+     },
+     {
+        "name":"Northdale",
+        "slug":"northdale",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Palmetto Bay",
+        "slug":"palmetto-bay",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Key West",
+        "slug":"key-west",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Eustis",
+        "slug":"eustis",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Bellview",
+        "slug":"bellview",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Westchase",
+        "slug":"westchase",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Port St. John",
+        "slug":"port-st-john",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Groveland",
+        "slug":"groveland",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"World Golf Village",
+        "slug":"world-golf-village",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Oak Ridge",
+        "slug":"oak-ridge",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Edgewater",
+        "slug":"edgewater",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Liberty Triangle",
+        "slug":"liberty-triangle",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Wekiwa Springs",
+        "slug":"wekiwa-springs",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Coral Terrace",
+        "slug":"coral-terrace",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Bloomingdale",
+        "slug":"bloomingdale",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Bayonet Point",
+        "slug":"bayonet-point",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Jacksonville Beach",
+        "slug":"jacksonville-beach",
+        "state":"Florida",
+        "county":"Duval"
+     },
+     {
+        "name":"DeBary",
+        "slug":"debary",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Brent",
+        "slug":"brent",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Hialeah Gardens",
+        "slug":"hialeah-gardens",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Jasmine Estates",
+        "slug":"jasmine-estates",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Ensley",
+        "slug":"ensley",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Sunny Isles Beach",
+        "slug":"sunny-isles-beach",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"The Crossings",
+        "slug":"the-crossings",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Zephyrhills",
+        "slug":"zephyrhills",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Marion Oaks",
+        "slug":"marion-oaks",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Bartow",
+        "slug":"bartow",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Tavares",
+        "slug":"tavares",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Lynn Haven",
+        "slug":"lynn-haven",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Holiday",
+        "slug":"holiday",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Florida Ridge",
+        "slug":"florida-ridge",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Sweetwater",
+        "slug":"sweetwater",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Hunters Creek",
+        "slug":"hunters-creek",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Fort Walton Beach",
+        "slug":"fort-walton-beach",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Lealman",
+        "slug":"lealman",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Midway CDP",
+        "slug":"midway-cdp",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"West Pensacola",
+        "slug":"west-pensacola",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Auburndale",
+        "slug":"auburndale",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Punta Gorda",
+        "slug":"punta-gorda",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Naples",
+        "slug":"naples",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Panama City Beach",
+        "slug":"panama-city-beach",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Cocoa",
+        "slug":"cocoa",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Maitland",
+        "slug":"maitland",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Palm Valley",
+        "slug":"palm-valley",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Minneola",
+        "slug":"minneola",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Stuart",
+        "slug":"stuart",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Bradfordville",
+        "slug":"bradfordville",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"Seminole",
+        "slug":"seminole",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Englewood",
+        "slug":"englewood",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Trinity",
+        "slug":"trinity",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Wildwood",
+        "slug":"wildwood",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Pinecrest",
+        "slug":"pinecrest",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Gibsonton",
+        "slug":"gibsonton",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Country Walk",
+        "slug":"country-walk",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Glenvar Heights",
+        "slug":"glenvar-heights",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Bayshore Gardens",
+        "slug":"bayshore-gardens",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Mount Dora",
+        "slug":"mount-dora",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"San Carlos Park",
+        "slug":"san-carlos-park",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"New Port Richey",
+        "slug":"new-port-richey",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Niceville",
+        "slug":"niceville",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Lake Wales",
+        "slug":"lake-wales",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Vero Beach",
+        "slug":"vero-beach",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Pinewood",
+        "slug":"pinewood",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"South Venice",
+        "slug":"south-venice",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Belle Glade",
+        "slug":"belle-glade",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Lady Lake",
+        "slug":"lady-lake",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Lake Butler CDP",
+        "slug":"lake-butler-cdp",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Viera West",
+        "slug":"viera-west",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Upper Grand Lagoon",
+        "slug":"upper-grand-lagoon",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Ojus",
+        "slug":"ojus",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Longwood",
+        "slug":"longwood",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Lake Mary",
+        "slug":"lake-mary",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Safety Harbor",
+        "slug":"safety-harbor",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Davenport",
+        "slug":"davenport",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Myrtle Grove",
+        "slug":"myrtle-grove",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Palmetto Estates",
+        "slug":"palmetto-estates",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Marco Island",
+        "slug":"marco-island",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Opa-locka",
+        "slug":"opa-locka",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Three Lakes",
+        "slug":"three-lakes",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Brownsville",
+        "slug":"brownsville",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Azalea Park",
+        "slug":"azalea-park",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"St. Augustine",
+        "slug":"st-augustine",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Warrington",
+        "slug":"warrington",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Palmer Ranch",
+        "slug":"palmer-ranch",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Fruitville",
+        "slug":"fruitville",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"West Park",
+        "slug":"west-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"West Lealman",
+        "slug":"west-lealman",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Yulee",
+        "slug":"yulee",
+        "state":"Florida",
+        "county":"Nassau"
+     },
+     {
+        "name":"Homosassa Springs",
+        "slug":"homosassa-springs",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Orange City",
+        "slug":"orange-city",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Key Biscayne",
+        "slug":"key-biscayne",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Forest City",
+        "slug":"forest-city",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Oldsmar",
+        "slug":"oldsmar",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Lockhart",
+        "slug":"lockhart",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Thonotosassa",
+        "slug":"thonotosassa",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Gladeview",
+        "slug":"gladeview",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Naranja",
+        "slug":"naranja",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Hobe Sound",
+        "slug":"hobe-sound",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Iona",
+        "slug":"iona",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"East Milton",
+        "slug":"east-milton",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Southchase",
+        "slug":"southchase",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Callaway",
+        "slug":"callaway",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Lakewood Park",
+        "slug":"lakewood-park",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Destin",
+        "slug":"destin",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"South Daytona",
+        "slug":"south-daytona",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Miami Springs",
+        "slug":"miami-springs",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Bellair-Meadowbrook Terrace",
+        "slug":"bellair-meadowbrook-terrace",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Elfers",
+        "slug":"elfers",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Gonzalez",
+        "slug":"gonzalez",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"On Top of the World",
+        "slug":"on-top-of-the-world",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Cheval",
+        "slug":"cheval",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Palmetto",
+        "slug":"palmetto",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Fernandina Beach",
+        "slug":"fernandina-beach",
+        "state":"Florida",
+        "county":"Nassau"
+     },
+     {
+        "name":"Sunset",
+        "slug":"sunset",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Villas",
+        "slug":"villas",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Asbury Lake",
+        "slug":"asbury-lake",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"North Palm Beach",
+        "slug":"north-palm-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Jupiter Farms",
+        "slug":"jupiter-farms",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Conway",
+        "slug":"conway",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Atlantic Beach",
+        "slug":"atlantic-beach",
+        "state":"Florida",
+        "county":"Duval"
+     },
+     {
+        "name":"South Miami",
+        "slug":"south-miami",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Holly Hill",
+        "slug":"holly-hill",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Olympia Heights",
+        "slug":"olympia-heights",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Florida City",
+        "slug":"florida-city",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Celebration",
+        "slug":"celebration",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"Cypress Lake",
+        "slug":"cypress-lake",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Viera East",
+        "slug":"viera-east",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Mango",
+        "slug":"mango",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Wimauma",
+        "slug":"wimauma",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Pasadena Hills",
+        "slug":"pasadena-hills",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Lake City",
+        "slug":"lake-city",
+        "state":"Florida",
+        "county":"Columbia"
+     },
+     {
+        "name":"Highland City",
+        "slug":"highland-city",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Sarasota Springs",
+        "slug":"sarasota-springs",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Goldenrod",
+        "slug":"goldenrod",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Lantana",
+        "slug":"lantana",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Doctor Phillips",
+        "slug":"doctor-phillips",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Jensen Beach",
+        "slug":"jensen-beach",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Key Largo",
+        "slug":"key-largo",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Goulds",
+        "slug":"goulds",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Shady Hills",
+        "slug":"shady-hills",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Miami Shores",
+        "slug":"miami-shores",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Middleburg",
+        "slug":"middleburg",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Laurel",
+        "slug":"laurel",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Westview",
+        "slug":"westview",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Sebring",
+        "slug":"sebring",
+        "state":"Florida",
+        "county":"Highlands"
+     },
+     {
+        "name":"Wilton Manors",
+        "slug":"wilton-manors",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Medulla",
+        "slug":"medulla",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Lakeland Highlands",
+        "slug":"lakeland-highlands",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Gulfport",
+        "slug":"gulfport",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"New Port Richey East",
+        "slug":"new-port-richey-east",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Citrus Springs",
+        "slug":"citrus-springs",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Cocoa Beach",
+        "slug":"cocoa-beach",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Satellite Beach",
+        "slug":"satellite-beach",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Milton",
+        "slug":"milton",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Union Park",
+        "slug":"union-park",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Fairview Shores",
+        "slug":"fairview-shores",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Port Salerno",
+        "slug":"port-salerno",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Lighthouse Point",
+        "slug":"lighthouse-point",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Hudson",
+        "slug":"hudson",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Sugarmill Woods",
+        "slug":"sugarmill-woods",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Palatka",
+        "slug":"palatka",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Alachua",
+        "slug":"alachua",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"West Vero Corridor",
+        "slug":"west-vero-corridor",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Bithlo",
+        "slug":"bithlo",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Westwood Lakes",
+        "slug":"westwood-lakes",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Pebble Creek",
+        "slug":"pebble-creek",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Fuller Heights",
+        "slug":"fuller-heights",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Pine Ridge CDP",
+        "slug":"pine-ridge-cdp",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Memphis",
+        "slug":"memphis",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Pine Castle",
+        "slug":"pine-castle",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Avon Park",
+        "slug":"avon-park",
+        "state":"Florida",
+        "county":"Highlands"
+     },
+     {
+        "name":"Progress Village",
+        "slug":"progress-village",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Rotonda",
+        "slug":"rotonda",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Bardmoor",
+        "slug":"bardmoor",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Green Cove Springs",
+        "slug":"green-cove-springs",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Marathon",
+        "slug":"marathon",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Cape Canaveral",
+        "slug":"cape-canaveral",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Cypress Gardens",
+        "slug":"cypress-gardens",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Brooksville",
+        "slug":"brooksville",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"West Perrine",
+        "slug":"west-perrine",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"St. Augustine Shores",
+        "slug":"st-augustine-shores",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Bee Ridge",
+        "slug":"bee-ridge",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Beverly Hills",
+        "slug":"beverly-hills",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Dade City",
+        "slug":"dade-city",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Gateway",
+        "slug":"gateway",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Palm Beach",
+        "slug":"palm-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Richmond Heights",
+        "slug":"richmond-heights",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Lake Park",
+        "slug":"lake-park",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Mascotte",
+        "slug":"mascotte",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Micco",
+        "slug":"micco",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Citrus Hills",
+        "slug":"citrus-hills",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Indian Harbour Beach",
+        "slug":"indian-harbour-beach",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Orange Park",
+        "slug":"orange-park",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Fruitland Park",
+        "slug":"fruitland-park",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"North Merritt Island",
+        "slug":"north-merritt-island",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Hernando",
+        "slug":"hernando",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"St. Pete Beach",
+        "slug":"st-pete-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Lake Alfred",
+        "slug":"lake-alfred",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Fern Park",
+        "slug":"fern-park",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Miramar Beach",
+        "slug":"miramar-beach",
+        "state":"Florida",
+        "county":"Walton"
+     },
+     {
+        "name":"Wedgefield",
+        "slug":"wedgefield",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Seffner",
+        "slug":"seffner",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Springfield",
+        "slug":"springfield",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Westgate",
+        "slug":"westgate",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Newberry",
+        "slug":"newberry",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Gulf Gate",
+        "slug":"gulf-gate",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Lely Resort",
+        "slug":"lely-resort",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"North Bay Village",
+        "slug":"north-bay-village",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"McGregor",
+        "slug":"mcgregor",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Macclenny",
+        "slug":"macclenny",
+        "state":"Florida",
+        "county":"Baker"
+     },
+     {
+        "name":"Odessa",
+        "slug":"odessa",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Quincy",
+        "slug":"quincy",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Marianna",
+        "slug":"marianna",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Arcadia",
+        "slug":"arcadia",
+        "state":"Florida",
+        "county":"Desoto"
+     },
+     {
+        "name":"North Weeki Wachee",
+        "slug":"north-weeki-wachee",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Inverness",
+        "slug":"inverness",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Southwest Ranches",
+        "slug":"southwest-ranches",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Broadview Park",
+        "slug":"broadview-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Belle Isle",
+        "slug":"belle-isle",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Sky Lake",
+        "slug":"sky-lake",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Westlake",
+        "slug":"westlake",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Beacon Square",
+        "slug":"beacon-square",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Loughman",
+        "slug":"loughman",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Clewiston",
+        "slug":"clewiston",
+        "state":"Florida",
+        "county":"Glades"
+     },
+     {
+        "name":"Inverness Highlands South",
+        "slug":"inverness-highlands-south",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Longboat Key",
+        "slug":"longboat-key",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"South Apopka",
+        "slug":"south-apopka",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Williamsburg",
+        "slug":"williamsburg",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Indian River Estates",
+        "slug":"indian-river-estates",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Perry",
+        "slug":"perry",
+        "state":"Florida",
+        "county":"Taylor"
+     },
+     {
+        "name":"Willow Oak",
+        "slug":"willow-oak",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Mims",
+        "slug":"mims",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"West Samoset",
+        "slug":"west-samoset",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Southeast Arcadia",
+        "slug":"southeast-arcadia",
+        "state":"Florida",
+        "county":"Desoto"
+     },
+     {
+        "name":"West Miami",
+        "slug":"west-miami",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Freeport",
+        "slug":"freeport",
+        "state":"Florida",
+        "county":"Walton"
+     },
+     {
+        "name":"Lake Lorraine",
+        "slug":"lake-lorraine",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Live Oak",
+        "slug":"live-oak",
+        "state":"Florida",
+        "county":"Suwannee"
+     },
+     {
+        "name":"Connerton",
+        "slug":"connerton",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Inwood",
+        "slug":"inwood",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"DeFuniak Springs",
+        "slug":"defuniak-springs",
+        "state":"Florida",
+        "county":"Walton"
+     },
+     {
+        "name":"Heathrow",
+        "slug":"heathrow",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Neptune Beach",
+        "slug":"neptune-beach",
+        "state":"Florida",
+        "county":"Duval"
+     },
+     {
+        "name":"Fort Pierce North",
+        "slug":"fort-pierce-north",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Islamorada, Village of Islands",
+        "slug":"islamorada-village-of-islands",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Ormond-by-the-Sea",
+        "slug":"ormond-by-the-sea",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Gulf Breeze",
+        "slug":"gulf-breeze",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Lecanto",
+        "slug":"lecanto",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Orlovista",
+        "slug":"orlovista",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Port LaBelle",
+        "slug":"port-labelle",
+        "state":"Florida",
+        "county":"Glades"
+     },
+     {
+        "name":"Ave Maria",
+        "slug":"ave-maria",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Indiantown",
+        "slug":"indiantown",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"St. Augustine Beach",
+        "slug":"st-augustine-beach",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"High Springs",
+        "slug":"high-springs",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"South Patrick Shores",
+        "slug":"south-patrick-shores",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Pelican Bay",
+        "slug":"pelican-bay",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Pembroke Park",
+        "slug":"pembroke-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Kathleen",
+        "slug":"kathleen",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Treasure Island",
+        "slug":"treasure-island",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Ocean City",
+        "slug":"ocean-city",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"River Park",
+        "slug":"river-park",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Lauderdale-by-the-Sea",
+        "slug":"lauderdale-by-the-sea",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Sanibel",
+        "slug":"sanibel",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Tequesta",
+        "slug":"tequesta",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Dundee",
+        "slug":"dundee",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Vero Lake Estates",
+        "slug":"vero-lake-estates",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Belleview",
+        "slug":"belleview",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Southgate",
+        "slug":"southgate",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Three Oaks",
+        "slug":"three-oaks",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Starke",
+        "slug":"starke",
+        "state":"Florida",
+        "county":"Bradford"
+     },
+     {
+        "name":"Fort Myers Shores",
+        "slug":"fort-myers-shores",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Bay Harbor Islands",
+        "slug":"bay-harbor-islands",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Crawfordville",
+        "slug":"crawfordville",
+        "state":"Florida",
+        "county":"Wakulla"
+     },
+     {
+        "name":"Pahokee",
+        "slug":"pahokee",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Jan Phyl Village",
+        "slug":"jan-phyl-village",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Lochmoor Waterway Estates",
+        "slug":"lochmoor-waterway-estates",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Osprey",
+        "slug":"osprey",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Zephyrhills West",
+        "slug":"zephyrhills-west",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Okeechobee",
+        "slug":"okeechobee",
+        "state":"Florida",
+        "county":"Okeechobee"
+     },
+     {
+        "name":"Grant-Valkaria",
+        "slug":"grant-valkaria",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Surfside",
+        "slug":"surfside",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Siesta Key",
+        "slug":"siesta-key",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Eagle Lake",
+        "slug":"eagle-lake",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Flagler Beach",
+        "slug":"flagler-beach",
+        "state":"Florida",
+        "county":"Flagler"
+     },
+     {
+        "name":"LaBelle",
+        "slug":"labelle",
+        "state":"Florida",
+        "county":"Hendry"
+     },
+     {
+        "name":"Floral City",
+        "slug":"floral-city",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"The Meadows",
+        "slug":"the-meadows",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"South Gate Ridge",
+        "slug":"south-gate-ridge",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Ellenton",
+        "slug":"ellenton",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Zephyrhills South",
+        "slug":"zephyrhills-south",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Cocoa West",
+        "slug":"cocoa-west",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Rio Pinar",
+        "slug":"rio-pinar",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Orangetree",
+        "slug":"orangetree",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Tice",
+        "slug":"tice",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"White City",
+        "slug":"white-city",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Balm",
+        "slug":"balm",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Fort Meade",
+        "slug":"fort-meade",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Cortez",
+        "slug":"cortez",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Fort Myers Beach",
+        "slug":"fort-myers-beach",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Whiskey Creek",
+        "slug":"whiskey-creek",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Palm Springs North",
+        "slug":"palm-springs-north",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"South Pasadena",
+        "slug":"south-pasadena",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Naples Manor",
+        "slug":"naples-manor",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Rainbow Springs",
+        "slug":"rainbow-springs",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Daytona Beach Shores",
+        "slug":"daytona-beach-shores",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Crystal Lake",
+        "slug":"crystal-lake",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"River Ridge",
+        "slug":"river-ridge",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Samsula-Spruce Creek",
+        "slug":"samsula-spruce-creek",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"South Bay",
+        "slug":"south-bay",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Fussels Corner",
+        "slug":"fussels-corner",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Ridge Wood Heights",
+        "slug":"ridge-wood-heights",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Fellsmere",
+        "slug":"fellsmere",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Naples Park",
+        "slug":"naples-park",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Winter Beach",
+        "slug":"winter-beach",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Pensacola Station",
+        "slug":"pensacola-station",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Wauchula",
+        "slug":"wauchula",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Kenneth City",
+        "slug":"kenneth-city",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"South Sarasota",
+        "slug":"south-sarasota",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"St. Augustine South",
+        "slug":"st-augustine-south",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"June Park",
+        "slug":"june-park",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Valparaiso",
+        "slug":"valparaiso",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"South Brooksville",
+        "slug":"south-brooksville",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Parker",
+        "slug":"parker",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Timber Pines",
+        "slug":"timber-pines",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Brookridge",
+        "slug":"brookridge",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Combee Settlement",
+        "slug":"combee-settlement",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Warm Mineral Springs",
+        "slug":"warm-mineral-springs",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Nassau Village-Ratliff",
+        "slug":"nassau-village-ratliff",
+        "state":"Florida",
+        "county":"Nassau"
+     },
+     {
+        "name":"Whitfield CDP",
+        "slug":"whitfield-cdp",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Sawgrass",
+        "slug":"sawgrass",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Stock Island",
+        "slug":"stock-island",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Butler Beach",
+        "slug":"butler-beach",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Mount Plymouth",
+        "slug":"mount-plymouth",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Fort Pierce South",
+        "slug":"fort-pierce-south",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Gifford",
+        "slug":"gifford",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Buckingham",
+        "slug":"buckingham",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Clarcona",
+        "slug":"clarcona",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Belleair",
+        "slug":"belleair",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Big Pine Key",
+        "slug":"big-pine-key",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Moon Lake",
+        "slug":"moon-lake",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Lake Panasoffkee",
+        "slug":"lake-panasoffkee",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Taylor Creek",
+        "slug":"taylor-creek",
+        "state":"Florida",
+        "county":"Okeechobee"
+     },
+     {
+        "name":"Mulberry",
+        "slug":"mulberry",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Plantation CDP",
+        "slug":"plantation-cdp",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Ridge Manor",
+        "slug":"ridge-manor",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Indian River Shores",
+        "slug":"indian-river-shores",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Wahneta",
+        "slug":"wahneta",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Charlotte Harbor",
+        "slug":"charlotte-harbor",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Samoset",
+        "slug":"samoset",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Florida Gulf Coast University",
+        "slug":"florida-gulf-coast-university",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Highland Beach",
+        "slug":"highland-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Laguna Beach",
+        "slug":"laguna-beach",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Hutchinson Island South",
+        "slug":"hutchinson-island-south",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Lower Grand Lagoon",
+        "slug":"lower-grand-lagoon",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Bagdad",
+        "slug":"bagdad",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Suncoast Estates",
+        "slug":"suncoast-estates",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Bay Hill",
+        "slug":"bay-hill",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Harbour Heights",
+        "slug":"harbour-heights",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"South Highpoint",
+        "slug":"south-highpoint",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Bunnell",
+        "slug":"bunnell",
+        "state":"Florida",
+        "county":"Flagler"
+     },
+     {
+        "name":"Woodville",
+        "slug":"woodville",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"North Brooksville",
+        "slug":"north-brooksville",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Mary Esther",
+        "slug":"mary-esther",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Tierra Verde",
+        "slug":"tierra-verde",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"West Bradenton",
+        "slug":"west-bradenton",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Madeira Beach",
+        "slug":"madeira-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Umatilla",
+        "slug":"umatilla",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Juno Beach",
+        "slug":"juno-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Tangerine",
+        "slug":"tangerine",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Wallace",
+        "slug":"wallace",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Flagler Estates",
+        "slug":"flagler-estates",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Pea Ridge",
+        "slug":"pea-ridge",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Pine Manor",
+        "slug":"pine-manor",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Alturas",
+        "slug":"alturas",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Port St. Joe",
+        "slug":"port-st-joe",
+        "state":"Florida",
+        "county":"Gulf"
+     },
+     {
+        "name":"St. James City",
+        "slug":"st-james-city",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Lake Sarasota",
+        "slug":"lake-sarasota",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Oakland",
+        "slug":"oakland",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Lely",
+        "slug":"lely",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Point Baker",
+        "slug":"point-baker",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Chipley",
+        "slug":"chipley",
+        "state":"Florida",
+        "county":"Washington"
+     },
+     {
+        "name":"Hill 'n Dale",
+        "slug":"hill-n-dale",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Watergate",
+        "slug":"watergate",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Montura",
+        "slug":"montura",
+        "state":"Florida",
+        "county":"Hendry"
+     },
+     {
+        "name":"Crystal River",
+        "slug":"crystal-river",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"North River Shores",
+        "slug":"north-river-shores",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Port Richey",
+        "slug":"port-richey",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Indian Rocks Beach",
+        "slug":"indian-rocks-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Lake Clarke Shores",
+        "slug":"lake-clarke-shores",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"High Point",
+        "slug":"high-point",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Kensington Park",
+        "slug":"kensington-park",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Loxahatchee Groves",
+        "slug":"loxahatchee-groves",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Jasper",
+        "slug":"jasper",
+        "state":"Florida",
+        "county":"Hamilton"
+     },
+     {
+        "name":"Geneva",
+        "slug":"geneva",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Holden Lakes",
+        "slug":"holden-lakes",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Midway city",
+        "slug":"midway-city",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Ponce Inlet",
+        "slug":"ponce-inlet",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Vineyards",
+        "slug":"vineyards",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Frostproof",
+        "slug":"frostproof",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Tiger Point",
+        "slug":"tiger-point",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Goulding",
+        "slug":"goulding",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Williston",
+        "slug":"williston",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Nokomis",
+        "slug":"nokomis",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Rainbow Lakes Estates",
+        "slug":"rainbow-lakes-estates",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Big Coppitt Key",
+        "slug":"big-coppitt-key",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Woodlawn Beach",
+        "slug":"woodlawn-beach",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Feather Sound",
+        "slug":"feather-sound",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Ridgecrest",
+        "slug":"ridgecrest",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Alva",
+        "slug":"alva",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"West DeLand",
+        "slug":"west-deland",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Melbourne Beach",
+        "slug":"melbourne-beach",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Meadow Oaks",
+        "slug":"meadow-oaks",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Venice Gardens",
+        "slug":"venice-gardens",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Zephyrhills North",
+        "slug":"zephyrhills-north",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Windermere",
+        "slug":"windermere",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Williston Highlands",
+        "slug":"williston-highlands",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Bushnell",
+        "slug":"bushnell",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Malabar",
+        "slug":"malabar",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"San Castle",
+        "slug":"san-castle",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Dover",
+        "slug":"dover",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Biscayne Park",
+        "slug":"biscayne-park",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Indialantic",
+        "slug":"indialantic",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Holden Heights",
+        "slug":"holden-heights",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Bal Harbour",
+        "slug":"bal-harbour",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"South Beach",
+        "slug":"south-beach",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Hilliard",
+        "slug":"hilliard",
+        "state":"Florida",
+        "county":"Nassau"
+     },
+     {
+        "name":"Polk City",
+        "slug":"polk-city",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Harlem",
+        "slug":"harlem",
+        "state":"Florida",
+        "county":"Hendry"
+     },
+     {
+        "name":"Holmes Beach",
+        "slug":"holmes-beach",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Dade City North",
+        "slug":"dade-city-north",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"North Sarasota",
+        "slug":"north-sarasota",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Chattahoochee",
+        "slug":"chattahoochee",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Harbor Bluffs",
+        "slug":"harbor-bluffs",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Madison",
+        "slug":"madison",
+        "state":"Florida",
+        "county":"Madison"
+     },
+     {
+        "name":"Lake Helen",
+        "slug":"lake-helen",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Quail Ridge",
+        "slug":"quail-ridge",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Eglin AFB",
+        "slug":"eglin-afb",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Sharpes",
+        "slug":"sharpes",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Hypoluxo",
+        "slug":"hypoluxo",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Verona Walk",
+        "slug":"verona-walk",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Cedar Grove",
+        "slug":"cedar-grove",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Olga",
+        "slug":"olga",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Hurlburt Field",
+        "slug":"hurlburt-field",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Edgewood",
+        "slug":"edgewood",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Vamo",
+        "slug":"vamo",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Bonifay",
+        "slug":"bonifay",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Watertown",
+        "slug":"watertown",
+        "state":"Florida",
+        "county":"Columbia"
+     },
+     {
+        "name":"Inverness Highlands North",
+        "slug":"inverness-highlands-north",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"De Leon Springs",
+        "slug":"de-leon-springs",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Monticello",
+        "slug":"monticello",
+        "state":"Florida",
+        "county":"Jefferson"
+     },
+     {
+        "name":"Island Walk",
+        "slug":"island-walk",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Bay Pines",
+        "slug":"bay-pines",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Cleveland",
+        "slug":"cleveland",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Mangonia Park",
+        "slug":"mangonia-park",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Silver Springs",
+        "slug":"silver-springs",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Silver Lake",
+        "slug":"silver-lake",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Eastpoint",
+        "slug":"eastpoint",
+        "state":"Florida",
+        "county":"Franklin"
+     },
+     {
+        "name":"Holley",
+        "slug":"holley",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Carrabelle",
+        "slug":"carrabelle",
+        "state":"Florida",
+        "county":"Franklin"
+     },
+     {
+        "name":"Tropical Park",
+        "slug":"tropical-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Roosevelt Gardens",
+        "slug":"roosevelt-gardens",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Lake Placid",
+        "slug":"lake-placid",
+        "state":"Florida",
+        "county":"Highlands"
+     },
+     {
+        "name":"Lake Belvedere Estates",
+        "slug":"lake-belvedere-estates",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Hernando Beach",
+        "slug":"hernando-beach",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Pelican Marsh",
+        "slug":"pelican-marsh",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Berkshire Lakes",
+        "slug":"berkshire-lakes",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Zellwood",
+        "slug":"zellwood",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Cudjoe Key",
+        "slug":"cudjoe-key",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"St. Leo",
+        "slug":"st-leo",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Apalachicola",
+        "slug":"apalachicola",
+        "state":"Florida",
+        "county":"Franklin"
+     },
+     {
+        "name":"Bowling Green",
+        "slug":"bowling-green",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Chiefland",
+        "slug":"chiefland",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Pretty Bayou",
+        "slug":"pretty-bayou",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Virginia Gardens",
+        "slug":"virginia-gardens",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Eatonville",
+        "slug":"eatonville",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Ocala Estates",
+        "slug":"ocala-estates",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Greenbriar",
+        "slug":"greenbriar",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Grenelefe",
+        "slug":"grenelefe",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Lake Mary Jane",
+        "slug":"lake-mary-jane",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"East Bronson",
+        "slug":"east-bronson",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Belleair Bluffs",
+        "slug":"belleair-bluffs",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Blountstown",
+        "slug":"blountstown",
+        "state":"Florida",
+        "county":"Calhoun"
+     },
+     {
+        "name":"Trenton",
+        "slug":"trenton",
+        "state":"Florida",
+        "county":"Gilchrist"
+     },
+     {
+        "name":"Lake Mack-Forest Hills",
+        "slug":"lake-mack-forest-hills",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Astatula",
+        "slug":"astatula",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Manatee Road",
+        "slug":"manatee-road",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Campbell",
+        "slug":"campbell",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"Vilano Beach",
+        "slug":"vilano-beach",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Haverhill",
+        "slug":"haverhill",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Graceville",
+        "slug":"graceville",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Burnt Store Marina",
+        "slug":"burnt-store-marina",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Desoto Lakes",
+        "slug":"desoto-lakes",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Wewahitchka",
+        "slug":"wewahitchka",
+        "state":"Florida",
+        "county":"Gulf"
+     },
+     {
+        "name":"Tavernier",
+        "slug":"tavernier",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Chuluota",
+        "slug":"chuluota",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Oak Hill",
+        "slug":"oak-hill",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Redington Shores",
+        "slug":"redington-shores",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Seminole Manor",
+        "slug":"seminole-manor",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Atlantis",
+        "slug":"atlantis",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Crooked Lake Park",
+        "slug":"crooked-lake-park",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Oriole Beach",
+        "slug":"oriole-beach",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Bokeelia",
+        "slug":"bokeelia",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Lake Hamilton",
+        "slug":"lake-hamilton",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Tangelo Park",
+        "slug":"tangelo-park",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Bear Creek",
+        "slug":"bear-creek",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Roseland",
+        "slug":"roseland",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Homosassa",
+        "slug":"homosassa",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Sewall's Point",
+        "slug":"sewalls-point",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Rainbow Park",
+        "slug":"rainbow-park",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Grove City",
+        "slug":"grove-city",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Hillsboro Beach",
+        "slug":"hillsboro-beach",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Dunnellon",
+        "slug":"dunnellon",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Pine Air",
+        "slug":"pine-air",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Franklin Park",
+        "slug":"franklin-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Lake Butler city",
+        "slug":"lake-butler-city",
+        "state":"Florida",
+        "county":"Union"
+     },
+     {
+        "name":"El Portal",
+        "slug":"el-portal",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Wabasso Beach",
+        "slug":"wabasso-beach",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Ocklawaha",
+        "slug":"ocklawaha",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Cabana Colony",
+        "slug":"cabana-colony",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Washington Park",
+        "slug":"washington-park",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Ocean Ridge",
+        "slug":"ocean-ridge",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Taft",
+        "slug":"taft",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Cross City",
+        "slug":"cross-city",
+        "state":"Florida",
+        "county":"Dixie"
+     },
+     {
+        "name":"Montverde",
+        "slug":"montverde",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Charlotte Park",
+        "slug":"charlotte-park",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Pine Ridge CDP",
+        "slug":"pine-ridge-cdp",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"Callahan",
+        "slug":"callahan",
+        "state":"Florida",
+        "county":"Nassau"
+     },
+     {
+        "name":"Century",
+        "slug":"century",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Sneads",
+        "slug":"sneads",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Lake Kerr",
+        "slug":"lake-kerr",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Verandah",
+        "slug":"verandah",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Zolfo Springs",
+        "slug":"zolfo-springs",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Havana",
+        "slug":"havana",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Manasota Key",
+        "slug":"manasota-key",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Crescent City",
+        "slug":"crescent-city",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Royal Palm Estates",
+        "slug":"royal-palm-estates",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Moore Haven",
+        "slug":"moore-haven",
+        "state":"Florida",
+        "county":"Glades"
+     },
+     {
+        "name":"Howey-in-the-Hills",
+        "slug":"howey-in-the-hills",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Pine Island Center",
+        "slug":"pine-island-center",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Christmas",
+        "slug":"christmas",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Wabasso",
+        "slug":"wabasso",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Malone",
+        "slug":"malone",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"North Key Largo",
+        "slug":"north-key-largo",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Inglis",
+        "slug":"inglis",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Belleair Beach",
+        "slug":"belleair-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Molino",
+        "slug":"molino",
+        "state":"Florida",
+        "county":"Escambia"
+     },
+     {
+        "name":"Patrick AFB",
+        "slug":"patrick-afb",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Limestone Creek",
+        "slug":"limestone-creek",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Navarre Beach",
+        "slug":"navarre-beach",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"San Antonio",
+        "slug":"san-antonio",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Keystone Heights",
+        "slug":"keystone-heights",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Pierson",
+        "slug":"pierson",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Midway CDP",
+        "slug":"midway-cdp",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Black Diamond",
+        "slug":"black-diamond",
+        "state":"Florida",
+        "county":"Citrus"
+     },
+     {
+        "name":"East Palatka",
+        "slug":"east-palatka",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Hawthorne",
+        "slug":"hawthorne",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Heritage Pines",
+        "slug":"heritage-pines",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Interlachen",
+        "slug":"interlachen",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Astor",
+        "slug":"astor",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Key Vista",
+        "slug":"key-vista",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"South Palm Beach",
+        "slug":"south-palm-beach",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Glencoe",
+        "slug":"glencoe",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"North Redington Beach",
+        "slug":"north-redington-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Lacoochee",
+        "slug":"lacoochee",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Boulevard Gardens",
+        "slug":"boulevard-gardens",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Kenwood Estates",
+        "slug":"kenwood-estates",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Old Miakka",
+        "slug":"old-miakka",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Fort Denaud",
+        "slug":"fort-denaud",
+        "state":"Florida",
+        "county":"Hendry"
+     },
+     {
+        "name":"Pine Lakes",
+        "slug":"pine-lakes",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Baldwin",
+        "slug":"baldwin",
+        "state":"Florida",
+        "county":"Duval"
+     },
+     {
+        "name":"Redington Beach",
+        "slug":"redington-beach",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Cypress Quarters",
+        "slug":"cypress-quarters",
+        "state":"Florida",
+        "county":"Okeechobee"
+     },
+     {
+        "name":"Crystal Springs",
+        "slug":"crystal-springs",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Palm Beach Shores",
+        "slug":"palm-beach-shores",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Yalaha",
+        "slug":"yalaha",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Fanning Springs",
+        "slug":"fanning-springs",
+        "state":"Florida",
+        "county":"Gilchrist"
+     },
+     {
+        "name":"Homestead Base",
+        "slug":"homestead-base",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Punta Rassa",
+        "slug":"punta-rassa",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Gretna",
+        "slug":"gretna",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Rio",
+        "slug":"rio",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Bronson",
+        "slug":"bronson",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Juno Ridge",
+        "slug":"juno-ridge",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Silver Springs Shores East",
+        "slug":"silver-springs-shores-east",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"St. George Island",
+        "slug":"st-george-island",
+        "state":"Florida",
+        "county":"Franklin"
+     },
+     {
+        "name":"Mexico Beach",
+        "slug":"mexico-beach",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Palm Shores",
+        "slug":"palm-shores",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Allentown",
+        "slug":"allentown",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Black Hammock",
+        "slug":"black-hammock",
+        "state":"Florida",
+        "county":"Seminole"
+     },
+     {
+        "name":"Indian Shores",
+        "slug":"indian-shores",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Gotha",
+        "slug":"gotha",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Archer",
+        "slug":"archer",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Seville",
+        "slug":"seville",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Five Points",
+        "slug":"five-points",
+        "state":"Florida",
+        "county":"Columbia"
+     },
+     {
+        "name":"Babson Park",
+        "slug":"babson-park",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Plantation Mobile Home Park",
+        "slug":"plantation-mobile-home-park",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Harlem Heights",
+        "slug":"harlem-heights",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Medley",
+        "slug":"medley",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"North DeLand",
+        "slug":"north-deland",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Mayo",
+        "slug":"mayo",
+        "state":"Florida",
+        "county":"Lafayette"
+     },
+     {
+        "name":"Weeki Wachee Gardens",
+        "slug":"weeki-wachee-gardens",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Center Hill",
+        "slug":"center-hill",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Winding Cypress",
+        "slug":"winding-cypress",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"DeLand Southwest",
+        "slug":"deland-southwest",
+        "state":"Florida",
+        "county":"Volusia"
+     },
+     {
+        "name":"Panacea",
+        "slug":"panacea",
+        "state":"Florida",
+        "county":"Wakulla"
+     },
+     {
+        "name":"Golden Beach",
+        "slug":"golden-beach",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Avalon",
+        "slug":"avalon",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Palmona Park",
+        "slug":"palmona-park",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Masaryktown",
+        "slug":"masaryktown",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Anna Maria",
+        "slug":"anna-maria",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Gulf Stream",
+        "slug":"gulf-stream",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Page Park",
+        "slug":"page-park",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Chumuckla",
+        "slug":"chumuckla",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Webster",
+        "slug":"webster",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Indian Lake Estates",
+        "slug":"indian-lake-estates",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Solana",
+        "slug":"solana",
+        "state":"Florida",
+        "county":"Charlotte"
+     },
+     {
+        "name":"Paradise Heights",
+        "slug":"paradise-heights",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Bristol",
+        "slug":"bristol",
+        "state":"Florida",
+        "county":"Liberty"
+     },
+     {
+        "name":"Bradenton Beach",
+        "slug":"bradenton-beach",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"Grand Ridge",
+        "slug":"grand-ridge",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Chokoloskee",
+        "slug":"chokoloskee",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Crescent Beach",
+        "slug":"crescent-beach",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Buckhead Ridge",
+        "slug":"buckhead-ridge",
+        "state":"Florida",
+        "county":"Glades"
+     },
+     {
+        "name":"Fort Braden",
+        "slug":"fort-braden",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"Cottondale",
+        "slug":"cottondale",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Garden Grove",
+        "slug":"garden-grove",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Gun Club Estates",
+        "slug":"gun-club-estates",
+        "state":"Florida",
+        "county":"Hillsborough"
+     },
+     {
+        "name":"Matlacha",
+        "slug":"matlacha",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Jupiter Island",
+        "slug":"jupiter-island",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Penney Farms",
+        "slug":"penney-farms",
+        "state":"Florida",
+        "county":"Clay"
+     },
+     {
+        "name":"Fisher Island",
+        "slug":"fisher-island",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Waldo",
+        "slug":"waldo",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Pomona Park",
+        "slug":"pomona-park",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Stacey Street",
+        "slug":"stacey-street",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Lake Kathryn",
+        "slug":"lake-kathryn",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Scottsmoor",
+        "slug":"scottsmoor",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Coleman",
+        "slug":"coleman",
+        "state":"Florida",
+        "county":"Sumter"
+     },
+     {
+        "name":"Greenville",
+        "slug":"greenville",
+        "state":"Florida",
+        "county":"Madison"
+     },
+     {
+        "name":"Jennings",
+        "slug":"jennings",
+        "state":"Florida",
+        "county":"Hamilton"
+     },
+     {
+        "name":"Bradley Junction",
+        "slug":"bradley-junction",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Branford",
+        "slug":"branford",
+        "state":"Florida",
+        "county":"Suwannee"
+     },
+     {
+        "name":"Desoto Acres",
+        "slug":"desoto-acres",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Steinhatchee",
+        "slug":"steinhatchee",
+        "state":"Florida",
+        "county":"Taylor"
+     },
+     {
+        "name":"Hosford",
+        "slug":"hosford",
+        "state":"Florida",
+        "county":"Liberty"
+     },
+     {
+        "name":"Welaka",
+        "slug":"welaka",
+        "state":"Florida",
+        "county":"Putnam"
+     },
+     {
+        "name":"Paisley",
+        "slug":"paisley",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"White Springs",
+        "slug":"white-springs",
+        "state":"Florida",
+        "county":"Hamilton"
+     },
+     {
+        "name":"Shalimar",
+        "slug":"shalimar",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Duck Key",
+        "slug":"duck-key",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Heritage Bay",
+        "slug":"heritage-bay",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Key Colony Beach",
+        "slug":"key-colony-beach",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Marco Shores-Hammock Bay",
+        "slug":"marco-shores-hammock-bay",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Vernon",
+        "slug":"vernon",
+        "state":"Florida",
+        "county":"Washington"
+     },
+     {
+        "name":"Fort Green Springs",
+        "slug":"fort-green-springs",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Andrews",
+        "slug":"andrews",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Cedar Key",
+        "slug":"cedar-key",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Raleigh",
+        "slug":"raleigh",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Melbourne Village",
+        "slug":"melbourne-village",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Lawtey",
+        "slug":"lawtey",
+        "state":"Florida",
+        "county":"Bradford"
+     },
+     {
+        "name":"Chaires",
+        "slug":"chaires",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"East Williston",
+        "slug":"east-williston",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Fort White",
+        "slug":"fort-white",
+        "state":"Florida",
+        "county":"Columbia"
+     },
+     {
+        "name":"Paxton",
+        "slug":"paxton",
+        "state":"Florida",
+        "county":"Walton"
+     },
+     {
+        "name":"Micanopy",
+        "slug":"micanopy",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Yankeetown",
+        "slug":"yankeetown",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Whitfield CDP",
+        "slug":"whitfield-cdp",
+        "state":"Florida",
+        "county":"Manatee"
+     },
+     {
+        "name":"St. Lucie Village",
+        "slug":"st-lucie-village",
+        "state":"Florida",
+        "county":"Saint Lucie"
+     },
+     {
+        "name":"Pioneer",
+        "slug":"pioneer",
+        "state":"Florida",
+        "county":"Hendry"
+     },
+     {
+        "name":"Hastings",
+        "slug":"hastings",
+        "state":"Florida",
+        "county":"Saint Johns"
+     },
+     {
+        "name":"Laurel Hill",
+        "slug":"laurel-hill",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Jay",
+        "slug":"jay",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Bell",
+        "slug":"bell",
+        "state":"Florida",
+        "county":"Gilchrist"
+     },
+     {
+        "name":"Garcon Point",
+        "slug":"garcon-point",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Sea Ranch Lakes",
+        "slug":"sea-ranch-lakes",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Hillsboro Pines",
+        "slug":"hillsboro-pines",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Greenwood",
+        "slug":"greenwood",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Lake Mystic",
+        "slug":"lake-mystic",
+        "state":"Florida",
+        "county":"Liberty"
+     },
+     {
+        "name":"Orchid",
+        "slug":"orchid",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Wiscon",
+        "slug":"wiscon",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"McIntosh",
+        "slug":"mcintosh",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Briny Breezes",
+        "slug":"briny-breezes",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Beverly Beach",
+        "slug":"beverly-beach",
+        "state":"Florida",
+        "county":"Flagler"
+     },
+     {
+        "name":"Alford",
+        "slug":"alford",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Ponce de Leon",
+        "slug":"ponce-de-leon",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Reddick",
+        "slug":"reddick",
+        "state":"Florida",
+        "county":"Marion"
+     },
+     {
+        "name":"Glen St. Mary",
+        "slug":"glen-st-mary",
+        "state":"Florida",
+        "county":"Baker"
+     },
+     {
+        "name":"Gardner",
+        "slug":"gardner",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Schall Circle",
+        "slug":"schall-circle",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Hampton",
+        "slug":"hampton",
+        "state":"Florida",
+        "county":"Bradford"
+     },
+     {
+        "name":"Altha",
+        "slug":"altha",
+        "state":"Florida",
+        "county":"Calhoun"
+     },
+     {
+        "name":"Sopchoppy",
+        "slug":"sopchoppy",
+        "state":"Florida",
+        "county":"Wakulla"
+     },
+     {
+        "name":"Cinco Bayou",
+        "slug":"cinco-bayou",
+        "state":"Florida",
+        "county":"Okaloosa"
+     },
+     {
+        "name":"Pinecraft",
+        "slug":"pinecraft",
+        "state":"Florida",
+        "county":"Sarasota"
+     },
+     {
+        "name":"Greensboro",
+        "slug":"greensboro",
+        "state":"Florida",
+        "county":"Gadsden"
+     },
+     {
+        "name":"Roeville",
+        "slug":"roeville",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Ferndale",
+        "slug":"ferndale",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Jupiter Inlet Colony",
+        "slug":"jupiter-inlet-colony",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Manalapan",
+        "slug":"manalapan",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Lake Hart",
+        "slug":"lake-hart",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Lemon Grove",
+        "slug":"lemon-grove",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Harold",
+        "slug":"harold",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Miccosukee",
+        "slug":"miccosukee",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"Brownsdale",
+        "slug":"brownsdale",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Ocean Breeze",
+        "slug":"ocean-breeze",
+        "state":"Florida",
+        "county":"Martin"
+     },
+     {
+        "name":"Everglades",
+        "slug":"everglades",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Wausau",
+        "slug":"wausau",
+        "state":"Florida",
+        "county":"Washington"
+     },
+     {
+        "name":"Lee",
+        "slug":"lee",
+        "state":"Florida",
+        "county":"Madison"
+     },
+     {
+        "name":"Worthington Springs",
+        "slug":"worthington-springs",
+        "state":"Florida",
+        "county":"Union"
+     },
+     {
+        "name":"Tyndall AFB",
+        "slug":"tyndall-afb",
+        "state":"Florida",
+        "county":"Bay"
+     },
+     {
+        "name":"Pineland",
+        "slug":"pineland",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Esto",
+        "slug":"esto",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Homeland",
+        "slug":"homeland",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Munson",
+        "slug":"munson",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Brooker",
+        "slug":"brooker",
+        "state":"Florida",
+        "county":"Bradford"
+     },
+     {
+        "name":"Spring Ridge",
+        "slug":"spring-ridge",
+        "state":"Florida",
+        "county":"Gilchrist"
+     },
+     {
+        "name":"Okahumpka",
+        "slug":"okahumpka",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Floridatown",
+        "slug":"floridatown",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Wacissa",
+        "slug":"wacissa",
+        "state":"Florida",
+        "county":"Jefferson"
+     },
+     {
+        "name":"La Crosse",
+        "slug":"la-crosse",
+        "state":"Florida",
+        "county":"Alachua"
+     },
+     {
+        "name":"Caryville",
+        "slug":"caryville",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Yeehaw Junction",
+        "slug":"yeehaw-junction",
+        "state":"Florida",
+        "county":"Osceola"
+     },
+     {
+        "name":"St. Marks",
+        "slug":"st-marks",
+        "state":"Florida",
+        "county":"Wakulla"
+     },
+     {
+        "name":"Capitola",
+        "slug":"capitola",
+        "state":"Florida",
+        "county":"Leon"
+     },
+     {
+        "name":"Trilby",
+        "slug":"trilby",
+        "state":"Florida",
+        "county":"Pasco"
+     },
+     {
+        "name":"Waverly",
+        "slug":"waverly",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Windsor",
+        "slug":"windsor",
+        "state":"Florida",
+        "county":"Indian River"
+     },
+     {
+        "name":"Mulat",
+        "slug":"mulat",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Acacia Villas",
+        "slug":"acacia-villas",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Highland Park",
+        "slug":"highland-park",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Hillcrest Heights",
+        "slug":"hillcrest-heights",
+        "state":"Florida",
+        "county":"Polk"
+     },
+     {
+        "name":"Spring Lake",
+        "slug":"spring-lake",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Golf",
+        "slug":"golf",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Mount Carmel",
+        "slug":"mount-carmel",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Westville",
+        "slug":"westville",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Nobleton",
+        "slug":"nobleton",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Ebro",
+        "slug":"ebro",
+        "state":"Florida",
+        "county":"Washington"
+     },
+     {
+        "name":"Canal Point",
+        "slug":"canal-point",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Jacob City",
+        "slug":"jacob-city",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Waukeenah",
+        "slug":"waukeenah",
+        "state":"Florida",
+        "county":"Jefferson"
+     },
+     {
+        "name":"Raiford",
+        "slug":"raiford",
+        "state":"Florida",
+        "county":"Union"
+     },
+     {
+        "name":"Glen Ridge",
+        "slug":"glen-ridge",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Noma",
+        "slug":"noma",
+        "state":"Florida",
+        "county":"Holmes"
+     },
+     {
+        "name":"Sorrento",
+        "slug":"sorrento",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Layton",
+        "slug":"layton",
+        "state":"Florida",
+        "county":"Monroe"
+     },
+     {
+        "name":"Berrydale",
+        "slug":"berrydale",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Campbellton",
+        "slug":"campbellton",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Day",
+        "slug":"day",
+        "state":"Florida",
+        "county":"Lafayette"
+     },
+     {
+        "name":"Pine Level",
+        "slug":"pine-level",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"West Canaveral Groves",
+        "slug":"west-canaveral-groves",
+        "state":"Florida",
+        "county":"Brevard"
+     },
+     {
+        "name":"Aripeka",
+        "slug":"aripeka",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Lake Lindsey",
+        "slug":"lake-lindsey",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Lloyd",
+        "slug":"lloyd",
+        "state":"Florida",
+        "county":"Jefferson"
+     },
+     {
+        "name":"Pittman",
+        "slug":"pittman",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Morriston",
+        "slug":"morriston",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Aucilla",
+        "slug":"aucilla",
+        "state":"Florida",
+        "county":"Jefferson"
+     },
+     {
+        "name":"Horseshoe Beach",
+        "slug":"horseshoe-beach",
+        "state":"Florida",
+        "county":"Dixie"
+     },
+     {
+        "name":"Bayport",
+        "slug":"bayport",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Pine Island",
+        "slug":"pine-island",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Cloud Lake",
+        "slug":"cloud-lake",
+        "state":"Florida",
+        "county":"Palm Beach"
+     },
+     {
+        "name":"Captiva",
+        "slug":"captiva",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Otter Creek",
+        "slug":"otter-creek",
+        "state":"Florida",
+        "county":"Levy"
+     },
+     {
+        "name":"Lisbon",
+        "slug":"lisbon",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Fort Green",
+        "slug":"fort-green",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Springhill",
+        "slug":"springhill",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Tildenville",
+        "slug":"tildenville",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Limestone",
+        "slug":"limestone",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Bascom",
+        "slug":"bascom",
+        "state":"Florida",
+        "county":"Jackson"
+     },
+     {
+        "name":"Goodland",
+        "slug":"goodland",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Indian Creek",
+        "slug":"indian-creek",
+        "state":"Florida",
+        "county":"Miami-Dade"
+     },
+     {
+        "name":"Fidelis",
+        "slug":"fidelis",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Matlacha Isles-Matlacha Shores",
+        "slug":"matlacha-isles-matlacha-shores",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Istachatta",
+        "slug":"istachatta",
+        "state":"Florida",
+        "county":"Hernando"
+     },
+     {
+        "name":"Belleair Shore",
+        "slug":"belleair-shore",
+        "state":"Florida",
+        "county":"Pinellas"
+     },
+     {
+        "name":"Dickerson City",
+        "slug":"dickerson-city",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Cobbtown",
+        "slug":"cobbtown",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Dixonville",
+        "slug":"dixonville",
+        "state":"Florida",
+        "county":"Santa Rosa"
+     },
+     {
+        "name":"Plantation Island",
+        "slug":"plantation-island",
+        "state":"Florida",
+        "county":"Collier"
+     },
+     {
+        "name":"Sumatra",
+        "slug":"sumatra",
+        "state":"Florida",
+        "county":"Liberty"
+     },
+     {
+        "name":"Charleston Park",
+        "slug":"charleston-park",
+        "state":"Florida",
+        "county":"Lee"
+     },
+     {
+        "name":"Lazy Lake",
+        "slug":"lazy-lake",
+        "state":"Florida",
+        "county":"Broward"
+     },
+     {
+        "name":"Ona",
+        "slug":"ona",
+        "state":"Florida",
+        "county":"Hardee"
+     },
+     {
+        "name":"Altoona",
+        "slug":"altoona",
+        "state":"Florida",
+        "county":"Lake"
+     },
+     {
+        "name":"Lake Buena Vista",
+        "slug":"lake-buena-vista",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Bay Lake",
+        "slug":"bay-lake",
+        "state":"Florida",
+        "county":"Orange"
+     },
+     {
+        "name":"Marineland",
+        "slug":"marineland",
+        "state":"Florida",
+        "county":"Flagler"
+     }
   ]
 }
