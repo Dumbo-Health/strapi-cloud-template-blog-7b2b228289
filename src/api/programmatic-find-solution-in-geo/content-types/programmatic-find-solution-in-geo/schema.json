@@ -88,6 +88,36 @@
     },
     "number_of_cities_for_county_level": {
       "type": "string"
+    },
+    "solution": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::solution.solution",
+      "inversedBy": "programmatic_find_solution_in_geos"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::city.city",
+      "inversedBy": "programmatic_find_solution_in_geos"
+    },
+    "county": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::county.county",
+      "inversedBy": "programmatic_find_solution_in_geos"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::programmatic-find-solution-in-geo.programmatic-find-solution-in-geo",
+      "inversedBy": "children"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::programmatic-find-solution-in-geo.programmatic-find-solution-in-geo",
+      "mappedBy": "parent"
     }
   }
 }

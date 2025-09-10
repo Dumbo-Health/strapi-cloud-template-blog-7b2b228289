@@ -28,6 +28,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "programmatic_find_solution_in_geos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::programmatic-find-solution-in-geo.programmatic-find-solution-in-geo",
+      "mappedBy": "city"
     }
   }
 }
