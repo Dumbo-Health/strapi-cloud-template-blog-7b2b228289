@@ -597,6 +597,60 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiProgrammaticFindSolutionInGeoProgrammaticFindSolutionInGeo
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'programmatic_find_solution_in_geos';
+  info: {
+    displayName: '[Programmatic] Find {solution} in {geo}';
+    pluralName: 'programmatic-find-solution-in-geos';
+    singularName: 'programmatic-find-solution-in-geo';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    comparison_subtitle_bottom: Schema.Attribute.String;
+    comparison_subtitle_top: Schema.Attribute.String;
+    comparison_table_header: Schema.Attribute.String;
+    comparison_title: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    final_cta_button_anchor: Schema.Attribute.String;
+    final_cta_subtitle: Schema.Attribute.String;
+    final_cta_title: Schema.Attribute.String;
+    hero_headline: Schema.Attribute.String;
+    hero_primary_cta_anchor: Schema.Attribute.String;
+    hero_secondary_cta_anchor: Schema.Attribute.String;
+    hero_subtitle: Schema.Attribute.String;
+    interlink_same_geo: Schema.Attribute.String;
+    interlink_same_solution: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::programmatic-find-solution-in-geo.programmatic-find-solution-in-geo'
+    > &
+      Schema.Attribute.Private;
+    long_content: Schema.Attribute.Text;
+    meta_description: Schema.Attribute.Text;
+    meta_title: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    number_of_cities_for_county_level: Schema.Attribute.String;
+    parent_interlink_text: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    why_check_1: Schema.Attribute.Text;
+    why_check_2: Schema.Attribute.Text;
+    why_check_3: Schema.Attribute.Text;
+    why_headline: Schema.Attribute.String;
+    why_subtitle: Schema.Attribute.String;
+    why_title: Schema.Attribute.String;
+  };
+}
+
 export interface ApiSolutionSolution extends Struct.CollectionTypeSchema {
   collectionName: 'solutions';
   info: {
@@ -1169,6 +1223,7 @@ declare module '@strapi/strapi' {
       'api::city.city': ApiCityCity;
       'api::county.county': ApiCountyCounty;
       'api::global.global': ApiGlobalGlobal;
+      'api::programmatic-find-solution-in-geo.programmatic-find-solution-in-geo': ApiProgrammaticFindSolutionInGeoProgrammaticFindSolutionInGeo;
       'api::solution.solution': ApiSolutionSolution;
       'api::state.state': ApiStateState;
       'plugin::content-releases.release': PluginContentReleasesRelease;

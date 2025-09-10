@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programmatic_find_solution_in_geos",
+  "info": {
+    "singularName": "programmatic-find-solution-in-geo",
+    "pluralName": "programmatic-find-solution-in-geos",
+    "displayName": "[Programmatic] Find {solution} in {geo}"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "hero_headline": {
+      "type": "string"
+    },
+    "hero_subtitle": {
+      "type": "string"
+    },
+    "hero_primary_cta_anchor": {
+      "type": "string"
+    },
+    "hero_secondary_cta_anchor": {
+      "type": "string"
+    },
+    "why_headline": {
+      "type": "string"
+    },
+    "why_title": {
+      "type": "string"
+    },
+    "why_subtitle": {
+      "type": "string"
+    },
+    "comparison_title": {
+      "type": "string"
+    },
+    "comparison_subtitle_top": {
+      "type": "string"
+    },
+    "comparison_subtitle_bottom": {
+      "type": "string"
+    },
+    "comparison_table_header": {
+      "type": "string"
+    },
+    "final_cta_title": {
+      "type": "string"
+    },
+    "final_cta_subtitle": {
+      "type": "string"
+    },
+    "final_cta_button_anchor": {
+      "type": "string"
+    },
+    "why_check_1": {
+      "type": "text"
+    },
+    "why_check_2": {
+      "type": "text"
+    },
+    "why_check_3": {
+      "type": "text"
+    },
+    "long_content": {
+      "type": "text"
+    },
+    "parent_interlink_text": {
+      "type": "string"
+    },
+    "interlink_same_geo": {
+      "type": "string"
+    },
+    "interlink_same_solution": {
+      "type": "string"
+    },
+    "number_of_cities_for_county_level": {
+      "type": "string"
+    }
+  }
+}
